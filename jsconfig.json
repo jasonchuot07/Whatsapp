@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "checkJs": true,
+    "jsx": "react",
+    "paths": {
+      "@node_modules/*": ["node_modules/*"],
+      "@/components/*": ["components/*"],
+      "@firebase/*": ["firebase/*"],
+      "@pages/*": ["pages/*"],
+      "@styles": ["styles/*"],
+      "@public": ["public/*"],
+      "@redux/*": ["redux/*"],
+      "@contexts/*": ["contexts/*"],
+      "@apis": ["apis/*"],
+    }
+  }
+}

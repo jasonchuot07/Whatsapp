@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "DialogComponent.module.scss"
+    ],
+    "names": [],
+    "file": "DialogComponent.module.css"
+}

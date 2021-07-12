@@ -1,0 +1,8 @@
+.UserAvatar {
+  cursor: pointer;
+}
+
+.UserAvatar:hover {
+  opacity: .8;
+}
+/*# sourceMappingURL=SidebarHeader.module.css.map */

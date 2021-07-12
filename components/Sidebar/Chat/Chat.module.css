@@ -1,0 +1,23 @@
+.chat_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  padding: 7px;
+  word-break: break-word;
+}
+
+.chat_container:hover {
+  background-color: #e9eaeb;
+}
+
+.avatar {
+  width: 35px !important;
+  height: 35px !important;
+  margin: 5px !important;
+  margin-right: 15px !important;
+}
+/*# sourceMappingURL=Chat.module.css.map */
