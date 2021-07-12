@@ -7,6 +7,7 @@ import * as EmailValidator from 'email-validator'
 import ColorPicker from '../../ColorPicker/ColorPicker'
 import { useCollection } from 'react-firebase-hooks/firestore'
 import { TextField } from '@material-ui/core';
+import Image from 'next/image'
 
 export default function SidebarModal({visible, setVisible}) {
     const [user] = useAuthState(auth)
@@ -107,7 +108,7 @@ export default function SidebarModal({visible, setVisible}) {
                     
                     <EmailsContainer style={{backgroundColor: i%2 === 0 ? 'ghostwhite' : 'white'}} 
                     onClick={() => selectChosenUser(user)} >
-                        <EmailsImage> <img src={user.photoURL} alt={user.email} /> </EmailsImage>
+                        <EmailsImage> <Image src={user.photoURL} alt={user.email} /> </EmailsImage>
                         <EmailsText> {user.email}</EmailsText>
                         {/* {i === 0 &&  <ColorPicker object={primaryColor} setObject={setPrimaryColor} />} */}
 

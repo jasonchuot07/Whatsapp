@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import React from 'react'
 import {Button} from '@material-ui/core'
 import { auth, googleLogin } from '../../firebase/firebase'
@@ -16,7 +17,7 @@ function Login() {
 
             <div className={styles.login_container}>
                 <h1>Whatsapp Login</h1>
-                <img className={styles.logo} src='https://firebasestorage.googleapis.com/v0/b/whatsapp-c333e.appspot.com/o/logo%2Fwhatsapp.png?alt=media&token=69a4651b-bf6a-489f-b4d8-7c09193d0a4a' alt="whatsapp logo" />
+                <Image className={styles.logo} src='https://firebasestorage.googleapis.com/v0/b/whatsapp-c333e.appspot.com/o/logo%2Fwhatsapp.png?alt=media&token=69a4651b-bf6a-489f-b4d8-7c09193d0a4a' alt="whatsapp logo" />
                 <Button onClick={signIn} variant='outlined'>Sign in with Google</Button>
             </div>
         </div>

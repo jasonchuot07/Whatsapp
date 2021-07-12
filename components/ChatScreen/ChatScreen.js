@@ -84,7 +84,7 @@ function ChatScreen({chat, messages}) {
                     </> : <>
                     <Avatar />
                     <HeaderInformation>
-                        <p>Loading user's information ...</p>
+                        <p>Loading user information ...</p>
                     </HeaderInformation> 
                 </>}
 
