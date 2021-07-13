@@ -17,7 +17,7 @@ function Login() {
 
             <div className={styles.login_container}>
                 <h1>Whatsapp Login</h1>
-                <Image className={styles.logo} src='/public/whatsapp.png' alt="whatsapp logo" />
+                <Image width={200} height={200} src={'https://firebasestorage.googleapis.com/v0/b/whatsapp-c333e.appspot.com/o/logo%2Fwhatsapp.png?alt=media&token=69a4651b-bf6a-489f-b4d8-7c09193d0a4a'} alt="whatsapp logo" />
                 <Button onClick={signIn} variant='outlined'>Sign in with Google</Button>
             </div>
         </div>

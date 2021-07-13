@@ -21,6 +21,7 @@ function Sidebar() {
     const selectNewChat = () => {
         setVisible(true)
     }
+    console.log(user)
     const userChatRef = chatsCollection.where('participants', 'array-contains', user.email)
     const [chatSnapshots] = useCollection(userChatRef)
     return (

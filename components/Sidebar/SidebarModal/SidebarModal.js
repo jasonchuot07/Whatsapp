@@ -108,7 +108,7 @@ export default function SidebarModal({visible, setVisible}) {
                     
                     <EmailsContainer style={{backgroundColor: i%2 === 0 ? 'ghostwhite' : 'white'}} 
                     onClick={() => selectChosenUser(user)} >
-                        <EmailsImage> <Image src={user.photoURL} alt={user.email} /> </EmailsImage>
+                        <EmailsImage> <Image width={30} height={30} src={user.photoURL} alt={user.email} /> </EmailsImage>
                         <EmailsText> {user.email}</EmailsText>
                         {/* {i === 0 &&  <ColorPicker object={primaryColor} setObject={setPrimaryColor} />} */}
 
@@ -140,8 +140,10 @@ const EmailsText = styled.div`
 `
 
 const EmailsImage = styled.div`
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
     img {
-        margin-right: 20px;
         border-radius: 50%;
         height: 30px;
         width: 30px;

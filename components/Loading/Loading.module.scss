@@ -8,5 +8,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 200px !important;
+    width: 200px !important;
+    margin-bottom: 50px;
 }
