@@ -154,6 +154,7 @@ const HeaderIcons = styled.div``
 
 const MessageContainer = styled.div`
     padding: 30px;
+    padding-top: 90px;
     background-color: #e5ded8;
     min-height: 90vh;
 `
